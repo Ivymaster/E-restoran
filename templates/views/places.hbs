@@ -1,0 +1,8 @@
+{{#ifEquals status "admin"}}
+<a href="/places/create">CreatePlace</a>
+{{/ifEquals}}
+<br>
+{{#each places}}
+    {{this.name}}
+    <a href="/places/{{this._id}}">Vidi vise</a>
+{{/each}}

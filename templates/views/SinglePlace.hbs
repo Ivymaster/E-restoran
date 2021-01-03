@@ -1,0 +1,13 @@
+{{place.name}}<br>
+{{#each place.seats}}
+ {{this.maxPeople}}<br>
+    {{this.maxFree}}<br>
+    {{#ifEquals ../status "admin" }}
+    <a href="/reservations/create/{{../place._id}}/{{this._id}}">Rezervacije</a>
+    {{/ifEquals}}
+    {{#ifEquals ../status "korisnik" }}
+    <a href="/reservations/create/{{../place._id}}/{{this._id}}">Rezervisi</a>
+    {{/ifEquals}}
+{{/each}}
+
+

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title> Početna | Book-a-table-Bihać</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css">
+		<link rel="shortcut icon" href="/img/index/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		
+</head>
+
+<body>
+	<div id="wrapper0">
+	<div class="section-1 box">
+		<div class="main"> <!-- Klasa za navbar -->
+			<div class="slikica"> <!-- Klasa za logo -->
+				<img src="/img/index/menu.png">
+			</div>
+			<div class="logo"> <!-- Klasa za logo -->
+				<img src="/img/index/cafe.png">
+			</div>
+
+			<ul>
+				<li class="active"><a href="#">Početna</a></li>
+				<li><a href="../onama/about.html">O nama</a></li>
+				<li><a href="#">Galerija</a></li>
+				<li><a href="../kontakt/contact.html">Kontakt</a></li>
+				<li><a href="/places">Restaurants</a></li> 
+				<li><a href="/reservations">Reservations</a></li> 
+				{{#ifEquals status "none"}}
+				<li><a href="/users/signUp">SignUp</a></li>
+				
+				{{/ifEquals}}
+				<li><a href="/users/logIn">LogIn</a></li> 
+				<li>{{user.username}}</li> 
+				<li><a href="/users/logOut">LogOut</a></li>
+			</ul>
+
+		</div>
+
+		<div class="title"> 
+			<h1> DOBRODOŠLI</h1>
+		</div>
+
+		<div class="button"> 
+			<a href="#" class="btn">PRIJAVI SE</a>
+			<a href="#" class="btn">GALERIJA</a>
+		</div>
+	</div>
+	
+	</div>
+</div>
+	<div id="wrapper1">
+	<div class="section-2 box">
+		<!-- ovdje sekcija slika  -->
+		<table width="100%" height="100%">
+			
+			<tr>
+				
+				<td align="center">
+					<img src="/img/index/buking1.png">
+					 
+				</td>
+				<td align="center">
+					<img src="/img/index/org.png">
+					<img class="dining-pic" src="/img/index/dining-icon.png">
+				</td>
+			</tr>
+		</table>
+	</div>
+	</div>
+
+	<div id="wrapper0"> <!-- Za staticnu sekciju koristim obicni wrapper da se ne bi promijenila kada smanjim prozor -->
+	<div class="section-3 box"></div>
+	</div>
+
+	<div id="wrapper0">
+	<div class="section-7 box">
+		<table height="100%" cellspacing="5">
+			<tr>
+				<td>
+					<img class="desne-slike" src="/img/index/slika2.png">
+					<a href="#" class="boks">REZERVIŠI STOL</a>
+				</td>
+
+				<td rowspan="2">
+					<img src="/img/index/bukatable.png">
+				</td>
+
+				<td>
+					<img class="desne-slike" src="/img/index/mejl.png">
+					<a href="../kontakt/contact.html" class="boks2">POŠALJI MAIL</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<img class="desne-slike" src="/img/index/register.png">
+				</td>
+				<td>
+					<img class="desne-slike" src="/img/index/reserv.png">
+				</td>
+			</tr>
+		</table>
+	</div>
+	</div>
+
+	<div id="wrapper0"> <!-- Za staticnu sekciju koristim obicni wrapper da se ne bi promijenila kada smanjim prozor -->
+	<div class="section-3 box"></div>
+	</div>
+
+<div id="wrapper2"> <!-- Koristim wrapper da se ne bi slike pomijerale kada se stranica smanji -->
+	<div class="section-4 box">
+		<!-- Restorani u blizini -->
+	<div class="restorani-txt">Odaberite restoran u Vašoj blizini</div>
+	<div class="divider"> </div>
+<table class ="r-tabela">
+	<tr>
+		<td> 
+			<div class="restoran">
+			<a href="#" class="slika" > <img src="/img/index/sl1.png" width="100%"> </a>
+			<span style="padding-right: 166px; padding-top: 28px;">Ozimice</span>
+			</div> 
+		</td>
+
+		<td>
+			<div class="restoran">
+			<a href="#" class="slika"><img src="/img/index/sl2.png" width="100%"> </a>
+			<span style="padding-right: 150px; padding-top: 28px;">Prekounje</span>
+			</div>
+		</td>
+
+		<td>
+			<div class="restoran">
+			<a href="#" class="slika"><img src="/img/index/sl3.png" width="100%"></a>
+			<span style="padding-right: 190px; padding-top: 28px;">Ripač</span>
+			</div>
+		</td>
+
+		<td>
+			<div class="restoran">
+			<a href="#" class="slika"><img src="/img/index/sl8.png" width="100%"></a>
+			<span style="padding-right: 170px; padding-top: 28px;">Ceravci</span>
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="restoran">
+			<a href="#" class="slika"><img src="/img/index/sl4.png" width="100%"></a>
+			<span style="padding-right: 178px; padding-top: 28px;">Centar</span>
+			</div>
+		</td>
+
+		<td>
+			<div class="restoran">
+			<a href="#" class="slika"><img src="/img/index/sl5.png" width="100%"></a>
+			<span style="padding-right: 194px; padding-top: 28px;">Pokoj</span>
+			</div>
+		</td>
+
+		<td>
+			<div class="restoran">
+			<a href="#" class="slika"><img src="/img/index/sl6.png" width="100%"></a>
+			<span style="padding-right: 157px; padding-top: 28px;">Repušine</span>
+		</div>
+		</td>
+
+		<td> 
+			<div class="restoran">
+			<a href="#" class="slika"><img src="/img/index/sl7.png" width="100%"></a>
+			<span style="padding-right: 148px; padding-top: 28px;">Jablanska</span>
+			</div>
+		</td>
+	</tr>
+</table>
+
+	</div>
+</div>
+
+	<div id="wrapper0">
+	<div class="section-5 box"></div>
+	</div>
+
+	 <!-- Koristim wrapper da se sekcija ne pomijera prilikom smanjivanja prozora -->
+	<div id="wrapper3">
+	<div class="section-6 box">
+		<!-- Tekst "Kontakt podaci" -->
+		<div class="kontakt-tekst">KONTAKT PODACI</div>
+		<div class="divider"> </div>
+		<!-- Tri kontejnera za kontakt -->
+		
+	<div class ="kontejner">
+
+		<div class="kontakt">
+			<i class="fas fa-envelope"></i>
+			<span>bookbihac@hotmail.com </span>
+		</div>
+		<div class="kontakt">
+			<i class="fas fa-mobile-alt"></i>
+			<span>(+387)037 311-829</span>
+		</div>
+		<div class="kontakt">
+			<i class="fas fa-map-marker-alt"></i>
+			<span>Bosanskih Kraljeva 3, Bihać</span>
+		</div>
+
+		<!-- Footer -->
+		<div class="footer">Copyright 2019 &copy; Book-a-table-Bihać <br>
+			Design by <i> Nejra Melkić&trade; </i> i <i> Ivan Ivušić&trade;</i>
+		</div>
+	</div> <!-- Kraj kontejnera -->
+
+	</div> <!-- Kraj šeste sekcije -->
+	</div>
+
+<script type="text/javascript" src="/js/indexPage.js"></script>
+
+</body>
+</html>
